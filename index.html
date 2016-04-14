@@ -1,10 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Ing. Carlos Montes</title>
+    <script src="components/jquery/dist/jquery.min.js"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="components/angular/angular.min.js"></script>
+    <script src="components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
-	GITHUB.IO
+<body ng-app="uru.carlosmontes">
+
+    <div ui-view></div>
+
+    <!-- Script Files-->
+    <script src="app/app.js"></script>
+    <script src="app/modules/home/controllers/home.controller.js"></script>
 </body>
 </html>
